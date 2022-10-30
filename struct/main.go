@@ -16,6 +16,7 @@ func main() {
 
 	myVar2 := myStruct{
 		FirstName: "Mary",
+		LastName: "St.Marys"
 	}
 
 	log.Println("myVar is set to", myVar.printFirstName())
